@@ -11,7 +11,7 @@ When the user loads the saved data from local storage, they can get to the infor
 
 Attached is a link to the deployed application : (https://sarahvaci.github.io/WorkdayOrganize/)
 
-<img width="1439" alt="image/Screen Shot 2022-09-18 at 5.50.27 PM.png">
+<img width="1439" alt="/image/Screen Shot 2022-09-18 at 5.50.27 PM.png">
 
 ## resource
 The following tools were used to make this project:
