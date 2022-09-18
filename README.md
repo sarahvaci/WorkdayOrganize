@@ -3,7 +3,7 @@
 
 This is a simple plan for each day. The following things are true about the planner:
 
-Keeps track of things that happen from 9:00 AM to 5:00 PM on a given day
+Keeps track of things that happen from 9:00 AM to 5:00 PM on a given day.
 Multiple events can be saved for the same time slot.
 Saves events to their designated time slot and local storage, so the user can access the information after the session is over.
 When the user loads the saved data from local storage, they can get to the information quickly.
