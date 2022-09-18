@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">Current Date and Time is:  <span id='date-time'></span></p>
+     <!-- <p id="currentDay" class="lead"></p>  --> 
+    </header>
+    <div class="container" id="9am">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">9:00AM</p>
+          <div class="inputText col-sm-8" id="9am">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+  <div class="container" id="10am">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">10:00AM</p>
+          <div class="inputText col-sm-8" id="10am">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+  <div class="container" id="11am">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">11:00AM</p>
+          <div class="inputText col-sm-8" id="11am">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+  <div class="container" id="12pm">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">12:00AM</p>
+          <div class="inputText col-sm-8" id="12pm">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+  <div class="container" id="1pm">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">1:00PM</p>
+          <div class="inputText col-sm-8" id="1pm">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+
+  <div class="container" id="2pm">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">2:00PM</p>
+          <div class="inputText col-sm-8" id="2pm">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+  <div class="container" id="3pm">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">3:00PM</p>
+          <div class="inputText col-sm-8" id="3pm">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+  <div class="container" id="4pm">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">4:00PM</p>
+          <div class="inputText col-sm-8" id="4pm">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+  <div class="container" id="5pm">
+      <div class="row h-100">
+          <p class="col-sm-1 my-auto time-block">5:00PM</p>
+          <div class="inputText col-sm-8" id="5pm">
+            <textarea id="myTextArea" class="form-control 9text" rows="3"></textarea>
+          </div>
+          <button onclick="mySave()">SAVE</button>
+          <button onclick="myLoad()">LOAD</button>
+      </div>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
