@@ -17,3 +17,5 @@ Attached is a link to the deployed application : (https://sarahvaci.github.io/Wo
 The following tools were used to make this project:
 https://www.tiny.cloud/blog/
 https://www.howtocodeschool.com/p/javascript-tutorials.html
+Starting code was given for this assignment and used.
+
